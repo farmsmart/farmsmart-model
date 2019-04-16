@@ -1,0 +1,16 @@
+{
+    "content": "Plant tomatoes here<br />\n<br />\nPlant tomatoes here<br />\n<br />\nPlant tomatoes here<br />\nPlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes here",
+    "id": "l1rPW6fGLPXN37Zl2srf",
+    "_fl_meta_": {
+        "fl_id": "l1rPW6fGLPXN37Zl2srf",
+        "docId": "l1rPW6fGLPXN37Zl2srf",
+        "env": "production",
+        "schemaType": "collection",
+        "schema": "cropStage",
+        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
+        "locale": "en-US"
+    },
+    "stageName": "Planting",
+    "crop": "Tomatoes",
+    "status": "DRAFT"
+}

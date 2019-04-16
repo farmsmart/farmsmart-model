@@ -4,7 +4,7 @@
     "flamelink_meta": {
       "type": "object",
       "properties": {
-        "schema":     { "type": "string" },
+        "schema":     { "type": "string", "enum": ["crop"] },
         "schemaType": { "type": "string" },
         "locale":     { "type": "string" },
         "env":        { "type": "string" },
@@ -75,5 +75,5 @@
     "cropsInRotation" :       { "$ref" : "#/definitions/tags" },
     "soilType" :              { "$ref" : "#/definitions/tags" }
   },
-  "required" : ["name", "status", "summary", "content", "cropType", "image"]
+  "required" : ["name", "status", "summary", "content", "cropType", "image", "_fl_meta_"]
 }
