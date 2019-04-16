@@ -21,24 +21,37 @@
       "type" : "string",
       "enum" : ["DRAFT", "PUBLISHED"]
     },
+    "path_reference" : {
+      "type" : "object",
+      "properties": {
+        "_path": {
+          "type" : "object",
+          "title": "Segments define a path to the firebase storage solutions",
+          "properties": {
+            "segments" : {
+              "type" : "array",
+              "items":  { "type" : "string" }
+            }
+          },
+          "required" : [ "segments" ]
+        }
+      },
+      "required": [ "_path" ]
+    },
     "image" : {
+      "type" : "array",
+      "title": "Path to the image in Cloud Store",
+      "items": { "$ref": "#/definitions/path_reference"} 
+    },
+    "relatedArticles" : {
       "type" : "array",
       "items": {
         "type" : "object",
+        "title": "Path to the article in Firestore",
         "properties": {
-          "_path": {
-            "type" : "object",
-            "title": "Cloud Store path to image made up of segments.",
-            "properties": {
-              "segments" : {
-                "type" : "array",
-                "items":  { "type" : "string" }
-              }
-            },
-            "required" : [ "segments" ]
-          }
+          "article": { "$ref" : "#/definitions/path_reference" }
         },
-        "required": [ "_path" ]
+        "required": [ "article" ]
       }
     }
   },
@@ -46,12 +59,13 @@
   "type" : "object",
   "title": "Article object",
   "properties" : {
-    "_fl_meta_" :             { "$ref" : "#/definitions/flamelink_meta"},
-    "title" :                  { "type" : "string" },
-    "summary":                { "type" : "string" },
-    "content":                { "type" : "string" },
-    "status":                 { "$ref" : "#/definitions/status" },
-    "image":                { "$ref": "#/definitions/image"}
+    "_fl_meta_" :           { "$ref" : "#/definitions/flamelink_meta"},
+    "title" :               { "type" : "string" },
+    "summary":              { "type" : "string" },
+    "content":              { "type" : "string" },
+    "status":               { "$ref" : "#/definitions/status" },
+    "image":                { "$ref": "#/definitions/image"},
+    "relatedArticles":      { "$ref": "#/definitions/relatedArticles"}
   },
   "required" : ["title", "summary", "content", "status", "image", "_fl_meta_"]
 }

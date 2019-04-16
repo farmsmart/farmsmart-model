@@ -1,4 +1,5 @@
 {
+    "cropName": "Tomato",
     "complexity": "BEGINNER",
     "cropType": "SINGLE",
     "companionPlants": [
@@ -7,14 +8,14 @@
     ],
     "content": "This is a <strong>tomato</strong>. This is a <strong>tomato</strong>.This is a tomato.This is a <strong>tomato</strong>.This is a tomato.This is a tomato.This is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.<br />\n<br />\nThis is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.<br />\nThis is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.<br />\n<br />\n<span style=\"color:#ffffff\"><strong><span style=\"background-color:#27ae60\">This is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.</span></strong></span>",
     "_fl_meta_": {
+        "schema": "crop",
+        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
         "lastModifiedBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
         "locale": "en-US",
         "fl_id": "VMWbtrPVsMe226J3FvHZ",
-        "env": "production",
         "docId": "VMWbtrPVsMe226J3FvHZ",
-        "schemaType": "collection",
-        "schema": "crop",
-        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13"
+        "env": "production",
+        "schemaType": "collection"
     },
     "summary": "This is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.",
     "profitability": "LOW",
@@ -43,5 +44,17 @@
     ],
     "name": "Tomatoes",
     "setupCost": "LOW",
-    "id": "VMWbtrPVsMe226J3FvHZ"
+    "id": "VMWbtrPVsMe226J3FvHZ",
+    "stages": [
+        {
+            "cropStage": {
+                "_path": {
+                    "segments": [
+                        "fl_content",
+                        "l1rPW6fGLPXN37Zl2srf"
+                    ]
+                }
+            }
+        }
+    ]
 }

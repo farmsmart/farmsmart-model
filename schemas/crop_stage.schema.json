@@ -20,26 +20,6 @@
     "status" : {
       "type" : "string",
       "enum" : ["DRAFT", "PUBLISHED"]
-    },
-    "image" : {
-      "type" : "array",
-      "items": {
-        "type" : "object",
-        "properties": {
-          "_path": {
-            "type" : "object",
-            "title": "Cloud Store path to image made up of segments.",
-            "properties": {
-              "segments" : {
-                "type" : "array",
-                "items":  { "type" : "string" }
-              }
-            },
-            "required" : [ "segments" ]
-          }
-        },
-        "required": [ "_path" ]
-      }
     }
   },
   

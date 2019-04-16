@@ -1,4 +1,26 @@
 {
+    "content": "This is about TomatoThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about Tomatoeses",
+    "id": "En48JvmjjhTiSYI357mR",
+    "_fl_meta_": {
+        "fl_id": "En48JvmjjhTiSYI357mR",
+        "env": "production",
+        "docId": "En48JvmjjhTiSYI357mR",
+        "schemaType": "collection",
+        "schemaRef": {
+            "_path": {
+                "segments": [
+                    "fl_schemas",
+                    "Aw60WUpAp9EKqL1whDG9"
+                ]
+            }
+        },
+        "schema": "article",
+        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
+        "lastModifiedBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
+        "locale": "en-US"
+    },
+    "summary": " This is about TomatoesTThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about Tomatoeshis is about TomatoesThis is about TomatoesThis is about Tomatoes",
+    "title": "About Tomatoes",
     "status": "PUBLISHED",
     "image": [
         {
@@ -10,17 +32,16 @@
             }
         }
     ],
-    "content": "This is about TomatoThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about Tomatoeses",
-    "id": "En48JvmjjhTiSYI357mR",
-    "_fl_meta_": {
-        "locale": "en-US",
-        "fl_id": "En48JvmjjhTiSYI357mR",
-        "docId": "En48JvmjjhTiSYI357mR",
-        "env": "production",
-        "schemaType": "collection",
-        "schema": "article",
-        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13"
-    },
-    "summary": " This is about TomatoesTThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about TomatoesThis is about Tomatoeshis is about TomatoesThis is about TomatoesThis is about Tomatoes",
-    "title": "About Tomatoes"
+    "relatedArticles": [
+        {
+            "article": {
+                "_path": {
+                    "segments": [
+                        "fl_content",
+                        "En48JvmjjhTiSYI357mR"
+                    ]
+                }
+            }
+        }
+    ]
 }
