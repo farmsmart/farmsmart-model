@@ -43,7 +43,7 @@
       "title": "Path to the image in Cloud Store",
       "items": { "$ref": "#/definitions/path_reference"} 
     },
-    "relatedArticles" : {
+    "related_articles" : {
       "type" : "array",
       "items": {
         "type" : "object",
@@ -65,7 +65,7 @@
     "content":              { "type" : "string" },
     "status":               { "$ref" : "#/definitions/status" },
     "image":                { "$ref": "#/definitions/image"},
-    "relatedArticles":      { "$ref": "#/definitions/relatedArticles"}
+    "relatedArticles":      { "$ref": "#/definitions/related_articles"}
   },
   "required" : ["title", "summary", "content", "status", "image", "_fl_meta_"]
 }

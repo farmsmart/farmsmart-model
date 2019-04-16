@@ -20,6 +20,39 @@
     "status" : {
       "type" : "string",
       "enum" : ["DRAFT", "PUBLISHED"]
+    },
+    "path_reference" : {
+      "type" : "object",
+      "properties": {
+        "_path": {
+          "type" : "object",
+          "title": "Segments define a path to the firebase storage solutions",
+          "properties": {
+            "segments" : {
+              "type" : "array",
+              "items":  { "type" : "string" }
+            }
+          },
+          "required" : [ "segments" ]
+        }
+      },
+      "required": [ "_path" ]
+    },
+    "image" : {
+      "type" : "array",
+      "title": "Path to the image in Cloud Store",
+      "items": { "$ref": "#/definitions/path_reference"} 
+    },
+    "related_articles" : {
+      "type" : "array",
+      "items": {
+        "type" : "object",
+        "title": "Path to the article in Firestore",
+        "properties": {
+          "article": { "$ref" : "#/definitions/path_reference" }
+        },
+        "required": [ "article" ]
+      }
     }
   },
   
@@ -30,7 +63,8 @@
     "crop" :                  { "type" : "string" },
     "stageName" :             { "type" : "string" },
     "status":                 { "$ref" : "#/definitions/status" },
-    "content":                { "type" : "string" }
+    "content":                { "type" : "string" },
+    "relatedArticles":        { "$ref" : "#/definitions/related_articles" }
   },
   "required" : ["crop", "stageName", "status", "content", "_fl_meta_"]
 }

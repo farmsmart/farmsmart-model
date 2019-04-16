@@ -55,7 +55,7 @@
       "title": "Path to the image in Cloud Store",
       "items": { "$ref": "#/definitions/path_reference"} 
     },
-    "stages" : {
+    "crop_stages" : {
       "type" : "array",
       "items": {
         "type" : "object",
@@ -79,7 +79,7 @@
     "cropType":               { "$ref" : "#/definitions/crop_type" },
     "image":                  { "$ref" : "#/definitions/image" },
 
-    "stages":                  { "$ref" : "#/definitions/stages" },
+    "stages":                  { "$ref" : "#/definitions/crop_stages" },
 
     "complexity":             { "$ref" : "#/definitions/beg_adv" },
     "waterRequirement":       { "$ref" : "#/definitions/lo_hi" },

@@ -2,15 +2,29 @@
     "content": "Plant tomatoes here<br />\n<br />\nPlant tomatoes here<br />\n<br />\nPlant tomatoes here<br />\nPlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes herePlant tomatoes here",
     "id": "l1rPW6fGLPXN37Zl2srf",
     "_fl_meta_": {
+        "schema": "cropStage",
+        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
+        "lastModifiedBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
+        "locale": "en-US",
         "fl_id": "l1rPW6fGLPXN37Zl2srf",
         "docId": "l1rPW6fGLPXN37Zl2srf",
         "env": "production",
-        "schemaType": "collection",
-        "schema": "cropStage",
-        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
-        "locale": "en-US"
+        "schemaType": "collection"
     },
     "stageName": "Planting",
     "crop": "Tomatoes",
-    "status": "DRAFT"
+    "status": "DRAFT",
+    "relatedArticles": [
+        {
+            "article": {
+                "_path": {
+                    "segments": [
+                        "fl_content",
+                        "En48JvmjjhTiSYI357mR"
+                    ]
+                }
+            },
+            "uniqueKey": "6CF0cGT4b"
+        }
+    ]
 }
