@@ -1,0 +1,44 @@
+{
+    "sizes": [
+        {
+            "quality": 1,
+            "height": 9999,
+            "width": 375,
+            "path": "375_9999_100"
+        },
+        {
+            "width": 667,
+            "path": "667_9999_100",
+            "quality": 1,
+            "height": 9999
+        },
+        {
+            "quality": 1,
+            "height": 9999,
+            "width": 900,
+            "path": "900_9999_100"
+        },
+        {
+            "width": 1080,
+            "path": "1080_9999_100",
+            "quality": 1,
+            "height": 9999
+        },
+        {
+            "quality": 1,
+            "height": 9999,
+            "width": 1440,
+            "path": "1440_9999_100"
+        },
+        {
+            "quality": 1,
+            "height": 9999,
+            "width": 1920,
+            "path": "1920_9999_100"
+        }
+    ],
+    "type": "images",
+    "id": "fFchw9hkJ8m5u5j2xAuX",
+    "file": "fFchw9hkJ8m5u5j2xAuX_Solanum_lycopersicum_003.JPG",
+    "contentType": "image/jpeg"
+}
