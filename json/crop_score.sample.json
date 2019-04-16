@@ -1,0 +1,310 @@
+{
+    "scores": [
+        {
+            "percentage": 12.24,
+            "factor": "Location",
+            "values": [
+                {
+                    "rating": 8,
+                    "key": "Mombasa"
+                },
+                {
+                    "rating": 7,
+                    "key": "Kwale"
+                },
+                {
+                    "rating": 5,
+                    "key": "Kilifi"
+                },
+                {
+                    "key": "Tana River",
+                    "rating": 4
+                },
+                {
+                    "rating": 9,
+                    "key": "Lamu"
+                },
+                {
+                    "rating": 10,
+                    "key": "Taita–Taveta"
+                },
+                {
+                    "key": "Garissa",
+                    "rating": 8
+                },
+                {
+                    "rating": 8,
+                    "key": "Wajir"
+                },
+                {
+                    "rating": 1,
+                    "key": "Mandera"
+                },
+                {
+                    "key": "Marsabit",
+                    "rating": 6
+                },
+                {
+                    "key": "Isiolo",
+                    "rating": 6
+                },
+                {
+                    "key": "Meru",
+                    "rating": 8
+                },
+                {
+                    "key": "Tharaka-Nithi",
+                    "rating": 9
+                },
+                {
+                    "rating": 6,
+                    "key": "Embu"
+                },
+                {
+                    "key": "Kitui",
+                    "rating": 10
+                },
+                {
+                    "rating": 2,
+                    "key": "Machakos"
+                },
+                {
+                    "key": "Makueni",
+                    "rating": 2
+                },
+                {
+                    "key": "Nyandarua",
+                    "rating": 6
+                },
+                {
+                    "key": "Nyeri",
+                    "rating": 7
+                },
+                {
+                    "key": "Kirinyaga",
+                    "rating": 1
+                },
+                {
+                    "key": "Murang'a",
+                    "rating": 8
+                },
+                {
+                    "key": "Kiambu",
+                    "rating": 7
+                },
+                {
+                    "key": "Turkana",
+                    "rating": 4
+                },
+                {
+                    "rating": 10,
+                    "key": "West Pokot"
+                },
+                {
+                    "key": "Samburu",
+                    "rating": 0
+                },
+                {
+                    "rating": 8,
+                    "key": "Trans-Nzoia"
+                },
+                {
+                    "rating": 5,
+                    "key": "Uasin Gishu"
+                },
+                {
+                    "rating": 8,
+                    "key": "Elgeyo-Marakwet"
+                },
+                {
+                    "rating": 2,
+                    "key": "Nandi"
+                },
+                {
+                    "rating": 3,
+                    "key": "Baringo"
+                },
+                {
+                    "key": "Laikipia",
+                    "rating": 6
+                },
+                {
+                    "rating": 4,
+                    "key": "Nakuru"
+                },
+                {
+                    "key": "Narok",
+                    "rating": 0
+                },
+                {
+                    "rating": 6,
+                    "key": "Kajiado"
+                },
+                {
+                    "key": "Kericho",
+                    "rating": 4
+                },
+                {
+                    "rating": 0,
+                    "key": "Bomet"
+                },
+                {
+                    "key": "Kakamega",
+                    "rating": 1
+                },
+                {
+                    "key": "Vihiga",
+                    "rating": 6
+                },
+                {
+                    "rating": 8,
+                    "key": "Bungoma"
+                },
+                {
+                    "rating": 4,
+                    "key": "Busia"
+                },
+                {
+                    "rating": 5,
+                    "key": "Siaya"
+                },
+                {
+                    "key": "Kisumu",
+                    "rating": 9
+                },
+                {
+                    "rating": 8,
+                    "key": "Homa Bay"
+                },
+                {
+                    "key": "Migori",
+                    "rating": 10
+                },
+                {
+                    "rating": 8,
+                    "key": "Kisii"
+                },
+                {
+                    "key": "Nyamira",
+                    "rating": 7
+                },
+                {
+                    "rating": 5,
+                    "key": "Nairobi"
+                }
+            ],
+            "weight": 0.6
+        },
+        {
+            "percentage": 18.37,
+            "factor": "Land Size",
+            "values": [
+                {
+                    "key": "Less than 10m2",
+                    "rating": 10
+                },
+                {
+                    "rating": 8,
+                    "key": "Less than 1/4 acre"
+                },
+                {
+                    "rating": 4,
+                    "key": "1/4 - 1/2 acre"
+                },
+                {
+                    "key": "1/2 - 1 acre",
+                    "rating": 4
+                },
+                {
+                    "rating": 4,
+                    "key": "More than 1 acre"
+                }
+            ],
+            "weight": 0.9
+        },
+        {
+            "percentage": 18.37,
+            "factor": "Soil Type",
+            "values": [
+                {
+                    "key": "Sandy",
+                    "rating": 10
+                },
+                {
+                    "rating": 8,
+                    "key": "Black cotton"
+                },
+                {
+                    "rating": 4,
+                    "key": "Loamy"
+                },
+                {
+                    "key": "Alluvial",
+                    "rating": 7
+                },
+                {
+                    "rating": 10,
+                    "key": "Volcanic"
+                }
+            ],
+            "weight": 0.9
+        },
+        {
+            "weight": 0.6,
+            "percentage": 12.24,
+            "factor": "Irrigation",
+            "values": [
+                {
+                    "rating": 10,
+                    "key": "Yes"
+                },
+                {
+                    "key": "No",
+                    "rating": 6
+                }
+            ]
+        },
+        {
+            "percentage": 18.37,
+            "factor": "Season",
+            "values": [
+                {
+                    "rating": 10,
+                    "key": "Short Rains"
+                },
+                {
+                    "rating": 8,
+                    "key": "Long Rains"
+                },
+                {
+                    "key": "Dry",
+                    "rating": 2
+                }
+            ],
+            "weight": 0.9
+        },
+        {
+            "percentage": 20.41,
+            "factor": "Intention",
+            "values": [
+                {
+                    "rating": 7,
+                    "key": "Sales"
+                },
+                {
+                    "rating": 5,
+                    "key": "Subsistence"
+                },
+                {
+                    "rating": 8,
+                    "key": "Both"
+                }
+            ],
+            "weight": 1
+        }
+    ],
+    "crop": {
+        "title": "Okra",
+        "dataHash": "1fa124461f87afcb7a7a2181f4b163b6"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "complexity": "BEGINNER",
+    "cropType": "SINGLE",
+    "companionPlants": [
+        "Potatoes",
+        "Tomato"
+    ],
+    "content": "This is a <strong>tomato</strong>. This is a <strong>tomato</strong>.This is a tomato.This is a <strong>tomato</strong>.This is a tomato.This is a tomato.This is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.<br />\n<br />\nThis is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.<br />\nThis is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.<br />\n<br />\n<span style=\"color:#ffffff\"><strong><span style=\"background-color:#27ae60\">This is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.</span></strong></span>",
+    "_fl_meta_": {
+        "lastModifiedBy": "HagC3YCRTMahdAbXFrEKGnpAeO13",
+        "locale": "en-US",
+        "fl_id": "VMWbtrPVsMe226J3FvHZ",
+        "env": "production",
+        "docId": "VMWbtrPVsMe226J3FvHZ",
+        "schemaType": "collection",
+        "schema": "crop",
+        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13"
+    },
+    "summary": "This is a tomato. This is a tomato.This is a tomato.This is a tomato.This is a tomato.This is a tomato.",
+    "profitability": "LOW",
+    "waterRequirement": "LOW",
+    "cropsInRotation": [
+        "Tomato",
+        "Potatoes",
+        "Okra"
+    ],
+    "nonCompanionPlants": [
+        "Okra"
+    ],
+    "soilType": [
+        "SANDY"
+    ],
+    "status": "PUBLISHED",
+    "image": [
+        {
+            "_path": {
+                "segments": [
+                    "fl_files",
+                    "fFchw9hkJ8m5u5j2xAuX"
+                ]
+            }
+        }
+    ],
+    "name": "Tomatoes",
+    "setupCost": "LOW",
+    "id": "VMWbtrPVsMe226J3FvHZ"
+}
