@@ -4,11 +4,11 @@
 
 https://json-schema.org/draft-07/json-schema-release-notes.html
 
-## CMS Models stored in FireStore
+## JSON Schemas for the CMS entities stored in FireStore
 
 [Crop](./schemas/crop.schema.json) - Contains crops
 
-[Crop Stage](./schemas/crop_stage.schema.json) - Stages in a crop. Referenced by Crop
+[Crop Stage Schema](./schemas/crop_stage.schema.json) - Stages in a crop. Referenced by Crop
 
 [Article](./schemas/article.schema.json) - Articles referenced by Crop Stage or other Articles
 
@@ -18,7 +18,7 @@ Use the path segments to build the path to the document in FireStore
 
 ## References to Images
 
-Use the path segments to build the path to the image. Additionally, supply the image sizes in the request for the image.
+Use the path segments to build the path to the image. 
 
 Sample Path segments:
 ```
@@ -35,6 +35,24 @@ Sample Path segments:
 ```
 In firestore lookup **fl_files** for the **fFchw9hkJ8m5u5j2xAuX** to get the available size and the name of the image. [Sample JSON of fl_files](./json/fl_files_sample.json)
 
-``
-/flamelink/media/sized/1080_9999_100/name.JPG
-``
+```
+{
+    "sizes": [
+        {
+            "width": 1080,
+            "path": "1080_9999_100",
+            "quality": 1,
+            "height": 9999
+        }
+    ],
+    "type": "images",
+    "id": "fFchw9hkJ8m5u5j2xAuX",
+    "file": "fFchw9hkJ8m5u5j2xAuX_Tomato.JPG",
+    "contentType": "image/jpeg"
+}
+```
+
+From the document build the path to the Firebase Cloud Store
+```
+/flamelink/media/sized/1080_9999_100/fFchw9hkJ8m5u5j2xAuX_Tomato.JPG
+```
