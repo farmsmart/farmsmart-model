@@ -1,0 +1,31 @@
+{ 
+    "definitions": {
+      "image_size": {
+        "type": "object",
+        "properties": {
+          "resolution":     { "type": "string", "enum": ["xsmall", "small", "medium", "large"] },
+          "height":         { "type": "integer" },
+          "width":          { "type": "integer" },
+          "quality":        { "type": "integer" },
+          "path":           { "type": "string" }
+        },
+        "required": ["resolution", "height", "width", "quality", "path"]
+      },
+      "sizes" : {
+        "type" : "array",
+        "items": { "$ref" : "#/definitions/image_size" }
+      }
+    },
+    "type" : "object",
+    "title": "Farmsmart Image Record",
+    "properties" : {
+      "env" :           { "type" : "string"},
+      "img_url" :       { "type" : "string" },
+      "status":         { "type" : "string", "enum" : ["READY", "NEW"] },
+      "id":             { "type" : "string" },
+      "contentType":    { "type" : "string" },
+      "file":           { "type" : "string" },
+      "sizes":          { "$ref": "#/definitions/sizes"}
+    },
+    "required" : ["env", "img_url", "status", "id"]
+  }
