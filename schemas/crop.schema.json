@@ -75,7 +75,6 @@
     "name" :                  { "type" : "string" },
     "status":                 { "$ref" : "#/definitions/status" },
     "summary":                { "type" : "string" },
-    "content":                { "type" : "string" },
     "cropType":               { "$ref" : "#/definitions/crop_type" },
     "image":                  { "$ref" : "#/definitions/image" },
 
@@ -90,5 +89,5 @@
     "cropsInRotation" :       { "$ref" : "#/definitions/tags" },
     "soilType" :              { "$ref" : "#/definitions/tags" }
   },
-  "required" : ["name", "status", "summary", "content", "cropType", "image", "_fl_meta_"]
+  "required" : ["name", "status", "summary", "cropType", "image", "_fl_meta_"]
 }

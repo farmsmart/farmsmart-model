@@ -1,0 +1,24 @@
+{
+    "env": "production",
+    "img_url": "https://abcxyz",
+    "status" : "READY",
+    "id" : "ABC123",
+    "contentType" : "image/webp",
+    "file" : "ABC123.webp",
+    "sizes" : [
+        {
+            "resolution" : "xsmall",
+            "height" : 9999,
+            "width" : 480,
+            "quality" : 1,
+            "path" : "farmsmart/media/sized/480_9999_1"
+        },
+        {
+            "resolution" : "small",
+            "height" : 9999,
+            "width" : 840,
+            "quality" : 1,
+            "path" : "farmsmart/media/sized/840_9999_1"
+        }
+    ]
+}
