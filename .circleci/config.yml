@@ -25,7 +25,7 @@ jobs:
           name: "validate schema"
           command: |
             sudo pip install json-spec
-            json validate --schema-file=farmsmart/schemas/crop.schema.json --document-file=farmsmart/json/crop.sample.json
+            json validate --schema-file=farmsmart/schemas/cropStage.schema.json --document-file=farmsmart/json/crop.sample.json
 
 workflows:
   version: 2
