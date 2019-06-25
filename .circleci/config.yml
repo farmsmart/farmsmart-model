@@ -1,0 +1,36 @@
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:8.15.1-stretch-browsers-legacy
+    working_directory: /tmp/workspace
+
+jobs:
+  build:
+    executor: node-executor
+    working_directory: /tmp/workspace/farmsmart
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - farmsmart
+  validate:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: "validate schema"
+          command: |
+            ls -ctrl
+
+workflows:
+  version: 2
+  backend:
+    jobs:
+      - build
+      - validate:
+          requires:
+            - build
