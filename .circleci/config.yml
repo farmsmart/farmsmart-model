@@ -1,14 +1,14 @@
 version: 2.1
 
 executors:
-  node-executor:
+  docker-executor:
     docker:
-      - image: circleci/node:8.15.1-stretch-browsers-legacy
+      - image: circleci/python:3.6.4
     working_directory: /tmp/workspace
 
 jobs:
   build:
-    executor: node-executor
+    executor: docker-executor
     working_directory: /tmp/workspace/farmsmart
     steps:
       - checkout
@@ -17,14 +17,15 @@ jobs:
           paths:
             - farmsmart
   validate:
-    executor: node-executor
+    executor: docker-executor
     steps:
       - attach_workspace:
           at: /tmp/workspace
       - run:
           name: "validate schema"
           command: |
-            ls -ctrl
+            sudo pip install json-spec
+            json validate --schema-file=farmsmart/schemas/crop.schema.json --document-file=farmsmart/json/crop.sample.json
 
 workflows:
   version: 2
