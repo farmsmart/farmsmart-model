@@ -1,5 +1,26 @@
 # farmsmart-model
 
+Contains JSON schema definitions and samples for Farmsmart Entities
+
+# Getting Started
+
+This module is added as a git submodule in the farmsmart-firebase repository to provide on-demand validation of CMS documents.
+
+To use: 
+
+1. Clone farmsmart-firebase repository 
+2. Follow farmsmart-firebase Getting Started guide.
+
+To add shema and sample validation:
+
+1. Edit ./circleci/config.yml `validate` job
+2. Add the validation line like so (for crop)
+```bash
+json validate --schema-file=farmsmart/schemas/crop.schema.json --document-file=farmsmart/json/crop.sample.json
+```
+
+# References
+
 ## JSON Schema to use is Draft 7
 
 https://json-schema.org/draft-07/json-schema-release-notes.html
