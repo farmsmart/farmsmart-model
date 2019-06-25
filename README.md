@@ -6,12 +6,12 @@ Contains JSON schema definitions and samples for Farmsmart Entities
 
 This module is added as a git submodule in the farmsmart-firebase repository to provide on-demand validation of CMS documents.
 
-To use: 
+## To use: 
 
 1. Clone farmsmart-firebase repository 
 2. Follow farmsmart-firebase Getting Started guide.
 
-To add shema and sample validation:
+## To add shema and sample validation:
 
 1. Edit ./circleci/config.yml `validate` job
 2. Add the validation line like so (for crop)
