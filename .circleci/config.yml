@@ -36,7 +36,7 @@ jobs:
 
 workflows:
   version: 2
-  backend:
+  model-validation:
     jobs:
       - build
       - validate:
