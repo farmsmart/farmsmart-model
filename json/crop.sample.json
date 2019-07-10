@@ -1,5 +1,5 @@
 {
-  "cropName": "Tomato",
+  "name": "Tomatoes",
   "complexity": "BEGINNER",
   "cropType": "SINGLE",
   "companionPlants": ["Potatoes", "Tomato"],
@@ -28,7 +28,6 @@
       }
     }
   ],
-  "name": "Tomatoes",
   "setupCost": "LOW",
   "id": "VMWbtrPVsMe226J3FvHZ",
   "stages": [
