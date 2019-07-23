@@ -1,0 +1,53 @@
+{
+  
+  "definitions": {
+    "flamelink_meta": {
+      "type": "object",
+      "properties": {
+        "schema":     { "type": "string", "enum": ["chatGroupDirectory"] },
+        "schemaType": { "type": "string", "enum" : ["single"] },
+        "locale":     { "type": "string" },
+        "env":        { "type": "string" },
+        "docId":      { "type": "string" },
+        "fl_id":      { "type": "string" }
+      },
+      "required": ["schema", "locale", "env", "docId", "fl_id"]
+    },
+    "path_reference" : {
+      "type" : "object",
+      "properties": {
+        "_path": {
+          "type" : "object",
+          "title": "Segments define a path to the firebase storage solutions",
+          "properties": {
+            "segments" : {
+              "type" : "array",
+              "items":  { "type" : "string" }
+            }
+          },
+          "required" : [ "segments" ]
+        }
+      },
+      "required": [ "_path" ]
+    },
+    "chatGroup" : {
+      "type" : "array",
+      "items": {
+        "type" : "object",
+        "title": "Featured ChatGroup",
+        "properties": {
+          "chatGroup": { "$ref" : "#/definitions/path_reference" }
+        },
+        "required": [ "chatGroup" ]
+      }
+    }
+  },
+  
+  "type" : "object",
+  "title": "Chat Group  Directory",
+  "properties" : {
+    "_fl_meta_" :             { "$ref" : "#/definitions/flamelink_meta"},
+    "chatGroup":                  { "$ref" : "#/definitions/chatGroup" }
+  },
+  "required" : ["_fl_meta_"]
+}

@@ -1,0 +1,71 @@
+{
+  
+  "definitions": {
+    "flamelink_meta": {
+      "type": "object",
+      "properties": {
+        "schema":     { "type": "string", "enum": ["chatGroup"] },
+        "schemaType": { "type": "string" },
+        "locale":     { "type": "string" },
+        "env":        { "type": "string" },
+        "docId":      { "type": "string" },
+        "fl_id":      { "type": "string" }
+      },
+      "required": ["schema", "locale", "env", "docId", "fl_id"]
+    },
+    "tags" : {
+      "type" : "array",
+      "items": { "type" : "string" }
+    },
+    "status" : {
+      "type" : "string",
+      "enum" : ["DRAFT", "PUBLISHED"]
+    },
+    "path_reference" : {
+      "type" : "object",
+      "properties": {
+        "_path": {
+          "type" : "object",
+          "title": "Segments define a path to the firebase storage solutions",
+          "properties": {
+            "segments" : {
+              "type" : "array",
+              "items":  { "type" : "string" }
+            }
+          },
+          "required" : [ "segments" ]
+        }
+      },
+      "required": [ "_path" ]
+    },
+    "image" : {
+      "type" : "array",
+      "title": "Path to the image in Cloud Store",
+      "items": { "$ref": "#/definitions/path_reference"} 
+    },
+    "related_chatgroups" : {
+      "type" : "array",
+      "items": {
+        "type" : "object",
+        "title": "Path to the chat group in Firestore",
+        "properties": {
+          "chatGroup": { "$ref" : "#/definitions/path_reference" }
+        },
+        "required": [ "chatGroup" ]
+      }
+    }
+  },
+  
+  "type" : "object",
+  "title": "Chat Group object",
+  "properties" : {
+    "_fl_meta_" :           { "$ref" : "#/definitions/flamelink_meta"},
+    "title" :               { "type" : "string" },
+    "summary":              { "type" : "string" },
+    "content":              { "type" : "string" },
+    "status":               { "$ref" : "#/definitions/status" },
+    "image":                { "$ref": "#/definitions/image"},
+    "relatedChatGroups":    { "$ref": "#/definitions/related_chatgroups"}
+  },
+  "required" : ["title", "summary", "content", "status", "image", "_fl_meta_"]
+}
