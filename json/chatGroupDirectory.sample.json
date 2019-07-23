@@ -11,7 +11,7 @@
     "chatGroup": [
         {
             "uniqueKey": "ruTSy2D2t",
-            "article": {
+            "chatGroup": {
                 "_path": {
                     "segments": [
                         "fl_content",

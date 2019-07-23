@@ -4,7 +4,7 @@
     "flamelink_meta": {
       "type": "object",
       "properties": {
-        "schema":     { "type": "string", "enum": ["articleDirectory"] },
+        "schema":     { "type": "string", "enum": ["chatGroupDirectory"] },
         "schemaType": { "type": "string", "enum" : ["single"] },
         "locale":     { "type": "string" },
         "env":        { "type": "string" },
