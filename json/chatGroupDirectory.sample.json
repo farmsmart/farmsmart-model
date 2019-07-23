@@ -1,0 +1,36 @@
+{
+    "_fl_meta_": {
+        "locale": "en-US",
+        "fl_id": "B54tPMuXSNIWekgflfFL",
+        "docId": "B54tPMuXSNIWekgflfFL",
+        "env": "production",
+        "schemaType": "single",
+        "schema": "chatGroupDirectory",
+        "createdBy": "HagC3YCRTMahdAbXFrEKGnpAeO13"
+    },
+    "chatGroup": [
+        {
+            "uniqueKey": "ruTSy2D2t",
+            "article": {
+                "_path": {
+                    "segments": [
+                        "fl_content",
+                        "v6n1jQrsdfXRZ3xyIjuM"
+                    ]
+                }
+            }
+        },
+        {
+            "uniqueKey": "ZifZmDLlB",
+            "chatGroup": {
+                "_path": {
+                    "segments": [
+                        "fl_content",
+                        "En48JvmjjhTiSYI357mR"
+                    ]
+                }
+            }
+        }
+    ],
+    "id": "B54tPMuXSNIWekgflfFL"
+}
