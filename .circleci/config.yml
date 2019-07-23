@@ -33,6 +33,11 @@ jobs:
             json validate --schema-file=farmsmart/schemas/article.schema.json --document-file=farmsmart/json/article.sample.json
             echo "Validate Article Directory"
             json validate --schema-file=farmsmart/schemas/articleDirectory.schema.json --document-file=farmsmart/json/articleDirectory.sample.json
+            echo "Validate Chat Group"
+            json validate --schema-file=farmsmart/schemas/chatGroup.schema.json --document-file=farmsmart/json/chatGroup.sample.json
+            echo "Validate Chat Group Directory"
+            json validate --schema-file=farmsmart/schemas/chatGroupDirectory.schema.json --document-file=farmsmart/json/chatGroupDirectory.sample.json
+            
 
 workflows:
   version: 2
