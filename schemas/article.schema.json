@@ -63,6 +63,7 @@
     "title" :               { "type" : "string" },
     "summary":              { "type" : "string" },
     "content":              { "type" : "string" },
+    "contentLink":          { "type" : "string" },
     "status":               { "$ref" : "#/definitions/status" },
     "image":                { "$ref": "#/definitions/image"},
     "relatedArticles":      { "$ref": "#/definitions/related_articles"}
