@@ -63,9 +63,10 @@
     "title" :               { "type" : "string" },
     "summary":              { "type" : "string" },
     "content":              { "type" : "string" },
+    "contentLink":          { "type" : "string" },
     "status":               { "$ref" : "#/definitions/status" },
     "image":                { "$ref": "#/definitions/image"},
     "relatedChatGroups":    { "$ref": "#/definitions/related_chatgroups"}
   },
-  "required" : ["title", "summary", "content", "status", "image", "_fl_meta_"]
+  "required" : ["title", "summary", "content", "contentLink", "status", "image", "_fl_meta_"]
 }
